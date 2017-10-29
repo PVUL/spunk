@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'devise', '~> 4.3.0'
+gem 'graphql', '~> 1.7.4'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -51,6 +52,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'faker', '~>1.8.4'
   gem 'awesome_print', '~> 1.8.0', :require => 'ap'
+  gem 'graphiql-rails', '~> 1.4.6'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
