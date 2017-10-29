@@ -8,4 +8,7 @@ Rails.application.routes.draw do
   end
 
   post "/graphql", to: "graphql#execute"
+
+  # catchall
+  match '*path', to: redirect('/'), via: :all
 end
